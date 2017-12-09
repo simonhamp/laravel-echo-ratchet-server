@@ -1,0 +1,40 @@
+{
+    "name": "simonhamp/laravel-echo-ratchet-server",
+    "description": "A fully functioning PHP WebSocket server written for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Hamp",
+            "homepage": "https://github.com/simonhamp"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.5.*",
+        "askedio/laravel-ratchet": "^1.0",
+        "pelim/laravel-zmq": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimonHamp\\LaravelEchoRatchetServer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimonHamp\\LaravelEchoRatchetServer\\ServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,9 +1,7 @@
 <?php
 
 return [
-    'connections' => [
-        'zmq' => [
-            'driver' => 'zmq',
-        ],
+    'ratchet' => [
+        'driver' => 'zmq',
     ],
 ];

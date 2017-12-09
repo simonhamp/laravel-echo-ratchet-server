@@ -2,7 +2,7 @@
 
 namespace SimonHamp\LaravelEchoRatchetServer;
 
-use Illuminate\Support\ServiceProvider as Laravel;
+use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 class ServiceProvider extends LaravelServiceProvider
 {
